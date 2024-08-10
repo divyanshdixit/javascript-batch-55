@@ -1,15 +1,30 @@
-// primtive => can not be change (address/reference) (immutable)
-
-number => -10, 10, 10.02 
-string => '', ""
-Boolean => true , false 
-undefined
-
-// non-primitive => it can be change (mutable)
-
-null, object , array 
+// primitive  => can not be change, it doesn;'t have own props , methods
 
 
-// to findout the datatype of variable
-var t = 10;
-console.log(typeof t);
+// string => '10', "-10"
+// number => int, float, -ve, 10, 10.5, -10
+// boolean => true and false
+// undefined => undefined
+
+
+// non-primitive  => can be change, they have own props, methods
+
+
+// object => object
+// array => special kind of object
+// null => object
+
+// address - reference 
+
+var a = 10; // 1000
+a = 20; // 1001
+
+var details = { // 1010
+    name:'divyansh',
+    age: 28
+}
+
+details.name = 'ishi'
+
+console.log(details);
+

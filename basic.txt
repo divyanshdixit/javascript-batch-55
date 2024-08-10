@@ -1,1 +1,88 @@
-find out the odd and even number .
+// js is prog. lang for making web pages interactive
+
+ecma script (es) 5 , es6 
+// typescript
+latest version is ES8 (ECMA Script) 2020
+
+
+<script> 
+
+</script>
+
+
+
+what JS can do :
+
+it can chagnge html content
+it can change or make new html attributes
+change css style 
+can show or hide any html element
+can create any new html element
+we can use and fire events
+
+
+How we can use JS:-
+
+.html
+
+
+<script> 
+    js code
+    console.log('javascript code')
+</script>
+
+.js 
+
+index.js 
+// external js files can't include <script> tag
+
+<script src="path_of_file"> </script>
+
+
+How will we write output in js:->
+
+//1- writing in html element using-> DOM with innerHTML
+document.getElementById('para').innerHTML = 'output';
+
+//2- using alert:  form validation
+
+alert('output'); confirm(), prompt('enter you age..', 0)
+
+//3- write in brower console: using window.console.log()
+
+console.log('output')
+
+// 4- write in html output: Never use , just for quick testing
+document.write('hello')
+
+
+git clone https://github.com/divyanshdixit/javascript-training-batch-15.git 
+
+switch to other branch(already made):
+
+git checkout branchName
+
+
+// to make new branch and checkout to it :
+
+git checkout -b "branchName"
+
+
+// to send files at github server:
+
+//add all files:
+
+git add .
+
+// commit  added files:
+
+git commit -m "message here"
+
+// push files to server:
+
+git push 
+
+
+// to get the files(take pull)
+
+git pull (in main branch)
