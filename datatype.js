@@ -21,7 +21,8 @@ a = 20; // 1001
 
 var details = { // 1010
     name:'divyansh',
-    age: 28
+    age: 28,
+    getName: function(){}
 }
 
 details.name = 'ishi'

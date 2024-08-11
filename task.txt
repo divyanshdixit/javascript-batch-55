@@ -1,0 +1,12 @@
+// 1 - write a program for swapping of 2 varaible.
+
+var a = 10;
+var b = 20;
+console.log(a,b) // 20, 10
+
+// without using 3rd , with using 3rd varible
+
+// 2- Reverse a string: with using inbuilt , without using inbuilt function
+
+
+// 3- reverse a number:- 
